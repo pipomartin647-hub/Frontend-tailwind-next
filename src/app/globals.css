@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+/* SweetAlert2: por encima del topbar (z-9999) */
+.swal2-container {
+  z-index: 99999 !important;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme {
